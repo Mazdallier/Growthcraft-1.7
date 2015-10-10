@@ -53,6 +53,7 @@ public class CellarRegistry
 	private final BoozeRegistry boozeRegistry = new BoozeRegistry();
 	private final BrewRegistry brewRegistry = new BrewRegistry();
 	private final PressingRegistry pressingRegistry = new PressingRegistry();
+	private final DistilleryRegistry distilleryRegistry = new DistilleryRegistry();
 
 	////////////////////////////////////////////////////////////////////////
 	// LISTS AND MAPS ////YOU ARE NOT SUPPOSED TO TOUCH THIS D:<////////////
@@ -80,6 +81,11 @@ public class CellarRegistry
 	public PressingRegistry pressing()
 	{
 		return pressingRegistry;
+	}
+
+	public DistilleryRegistry distillery()
+	{
+		return distilleryRegistry;
 	}
 
 	//////////////////////////////////////////////////////////////////
